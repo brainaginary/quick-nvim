@@ -1,2 +1,2 @@
 # quick-nvim
- An easy one-file config for neovim written in lua
+My neovim configuration written in lua
