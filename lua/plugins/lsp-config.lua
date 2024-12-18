@@ -28,6 +28,9 @@ return {
 			})
 			lspconfig.clangd.setup({
 				capabilities = capabilities,
+				init_options = {
+			    	compileCommands = "./build/compile_commands.json",
+			  	},
 			})
 			lspconfig.gopls.setup({
 				capabilities = capabilities,
